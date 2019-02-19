@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coincore", "coincore.vcxproj", "{DF22CEDA-9E12-3536-988A-893BFD988EEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coincore-examples-hdkeychain", "examples\coincore-examples-keygen.vcxproj", "{06071AF7-8819-42AD-82DE-C098A9CE7ABB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF22CEDA-9E12-3536-988A-893BFD988EEE} = {DF22CEDA-9E12-3536-988A-893BFD988EEE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coincore-examples-keygen", "examples\coincore-examples-hdkeychain.vcxproj", "{CB65E0B9-C849-4C38-8036-9474D7CF2D38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF22CEDA-9E12-3536-988A-893BFD988EEE} = {DF22CEDA-9E12-3536-988A-893BFD988EEE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF22CEDA-9E12-3536-988A-893BFD988EEE}.Release|x64.ActiveCfg = Release|x64
+		{DF22CEDA-9E12-3536-988A-893BFD988EEE}.Release|x64.Build.0 = Release|x64
+		{06071AF7-8819-42AD-82DE-C098A9CE7ABB}.Release|x64.ActiveCfg = Release|x64
+		{06071AF7-8819-42AD-82DE-C098A9CE7ABB}.Release|x64.Build.0 = Release|x64
+		{CB65E0B9-C849-4C38-8036-9474D7CF2D38}.Release|x64.ActiveCfg = Release|x64
+		{CB65E0B9-C849-4C38-8036-9474D7CF2D38}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B91EBB3B-3487-44D1-9211-349AB4E76658}
+	EndGlobalSection
+EndGlobal

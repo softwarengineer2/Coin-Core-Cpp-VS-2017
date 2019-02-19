@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{cc614599-15fa-4b4c-916e-aa8650af5ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hashfunc">
+      <UniqueIdentifier>{e848aece-a83b-421d-961d-de3ae58656ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scrypt">
+      <UniqueIdentifier>{7ba0e348-104a-4c1b-998a-e8bc5da77727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wordlists">
+      <UniqueIdentifier>{4cfdba16-ef44-44bd-81c8-bc1c34052f17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bip39.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BloomFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CoinKey.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CoinNodeData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hdkeys.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IPv6.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MerkleTree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\secp256k1_openssl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashfunc\blake.c">
+      <Filter>src\hashfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashfunc\bmw.c">
+      <Filter>src\hashfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashfunc\groestl.c">
+      <Filter>src\hashfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashfunc\jh.c">
+      <Filter>src\hashfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashfunc\keccak.c">
+      <Filter>src\hashfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hashfunc\skein.c">
+      <Filter>src\hashfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scrypt\scrypt.cpp">
+      <Filter>src\scrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\aes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base58Check.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BigInt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bip39.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BloomFilter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoinKey.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoinNodeData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\encodings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashblock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hdkeys.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IPv6.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsonResult.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MerkleTree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\numericdata.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\random.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\secp256k1_openssl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\typedefs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uint256.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wordlists\english.h">
+      <Filter>src\wordlists</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_blake.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_bmw.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_groestl.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_jh.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_keccak.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_skein.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hashfunc\sph_types.h">
+      <Filter>src\hashfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scrypt\scrypt.h">
+      <Filter>src\scrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
